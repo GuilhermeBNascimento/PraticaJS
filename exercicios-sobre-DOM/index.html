@@ -106,11 +106,11 @@
 
                 <script>
                     let botao = document.getElementById("botao1");
+                    function tratadorDeClique() {
+                        console.log("Você Clicou no botão!");
+                    }
 
-                    botao.addEventListener("click", (msg)=>{
-                        let msg = "Botão Clicado!";
-                        alert(msg);
-                    })
+                    botao.addEventListener("click", tratadorDeClique);
                 </script>
 
 
