@@ -1,4 +1,4 @@
-function converter() {
+function inverter() {
     let string = window.prompt("Digite sua string");
     let novastring = "";
 
