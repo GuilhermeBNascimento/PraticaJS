@@ -5,8 +5,6 @@ function converter() {
     for (let i = string.length-1; i>=0; i--) {
         novastring += string[i];
     }
-    return novastring
-    
+    console.log(novastring);
 }
 
-console.log(novastring);
