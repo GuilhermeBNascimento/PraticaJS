@@ -1,6 +1,18 @@
 function obterRegiaoFiscalAtravesDoCPFInformado(cpfInformado) {
-    //edite esta função!
-    let regiaoFiscal = undefined
+    let nonoDigito = parseInt(cpfInformado.charAt(8));
+    let regioes = ["RS",
+        "DF, GO, MT, MS e TO",
+        "AC, AP, AM, PA, RO e RR",
+        "CE, MA e PI",
+        "AL, PB, PE e RN",
+        "BA e SE",
+        "MG",
+        "ES e RJ",
+        "SP",
+        "PR e SC"
+    ];
+
+    let regiaoFiscal = regioes[nonoDigito]
     console.log(cpfInformado)
     
     //----------------------------

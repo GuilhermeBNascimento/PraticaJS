@@ -1,6 +1,14 @@
 function listarCasos() {
     let todosOsCasos = []
-    //--- inclua seu algoritmo aqui ---
+    for (let num = 10; num <= 99; num++) {
+        var quadrado = num * num;
+        var parteEsquerda = Math.floor(quadrado / 100); // Dois primeiros dígitos do quadrado
+        var parteDireita = quadrado % 100; // Dois últimos dígitos do quadrado
+
+        if (parteEsquerda + parteDireita === num) {
+            todosOsCasos.push(num);
+        }
+    }
 
     
 

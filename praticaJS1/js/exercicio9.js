@@ -1,6 +1,10 @@
 function haOnzeDigitos(cpf) {
-    //---- edite aqui para a validação do exercício 9a
-    return false
+    if (cpf.lenght === 11) {
+        return true
+    } else {
+        return false
+    }
+    
 }
 
 function todosOsOnzeDigitosSaoNumeros(cpf) {
