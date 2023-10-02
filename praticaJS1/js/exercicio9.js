@@ -1,14 +1,15 @@
 function haOnzeDigitos(cpf) {
-    if (cpf.lenght === 11) {
+    if (cpf.length === 11) {
         return true
-    } else {
-        return false
     }
+    return false
     
 }
 
 function todosOsOnzeDigitosSaoNumeros(cpf) {
-    //---- edite aqui para a validação do exercício 9b
+    if (cpf != "/^\d+$/") {
+        return true
+    }
     return false
 }
 
